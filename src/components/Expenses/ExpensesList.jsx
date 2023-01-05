@@ -1,5 +1,6 @@
 import "./ExpensesList.css";
 import ExpensesItem from "./ExpenseItem";
+
 function ExpensesList(props) {
   let expensesContent = <p>No expensens</p>;
   if (props.filteredExpenses.length === 0) {

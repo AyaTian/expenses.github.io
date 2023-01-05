@@ -38,11 +38,12 @@ function App() {
       return [...prevExpenses, expenseData];
     });
   };
-  console.log("expenses", expenses);
+  // console.log("expenses", expenses);
   return (
     <div>
       <NewExpense onAddExpense={onAddExpenseHandler} />
       <Expenses expenses={expenses} />
+      
     </div>
   );
 }
