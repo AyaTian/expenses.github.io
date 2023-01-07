@@ -7,7 +7,7 @@ function CharBar(props) {
   if (value > 0) {
     barFillHeight = Math.round((value / maxValue) * 100) + "%";
   }
-  console.log("barFillHeight", barFillHeight);
+
   return (
     <div className="chart-bar">
       <div className="chart-bar__inner">
